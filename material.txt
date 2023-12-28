@@ -1,2 +1,16 @@
 iter_rows() - é uma função do openpyxl que vai passar por todas as linhas da lista.
-obs: o parâmetro min_row=2 indica que vai começar na linha dois, tem que vericar na lista onde realmente começa a lista pdoendo ser uma linha diferente
+obs: o parâmetro min_row=2 indica que vai começar na linha dois, tem que vericar na lista onde realmente começa a lista pdoendo ser uma linha diferente.
+
+'with open('erros.csv', 'a',newline='', encoding='utf-8') as arquivo:
+            arquivo.write(f'{nome}, {telefone}')'
+
+- csv: cria um arquivo texto co vírgula
+- a: append para acrescentar
+- newline='': para não haver erro de formatação
+- encoding='utf-8': formatar texto de acordo com que se encontra no Brasil
+
+bibliotecas instaladas
+
+> pyautogui
+> openpyxl
+> urllib
